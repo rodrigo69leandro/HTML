@@ -1,0 +1,121 @@
+
+section, table{
+    background-image:url(img/imageb.png)
+}/*Background*/
+
+#topo{
+    height: 300px;
+    margin: 0px;
+    
+} /* Imagem principal de todas as páginas*/
+
+.menu{
+    background-color:#c8e6c9;
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    color:black;
+    font:30px'Arial';
+    text-decoration: none;
+    margin: 0px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color:#43a047;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color:#1b5e20;
+    font-size: 130%;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+article{
+    text-align: center;
+    margin: 15px;  
+}
+
+h1{
+ font-size: 40px;
+ text-align: center;
+}
+
+h2, h3{
+    font-size:30px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 25px
+}
+
+p{
+	font-family:"Arial";
+    font-size: 25px;
+    text-align: justify;
+}
+
+#coluna1{  
+    width: 625px;
+    height: 670px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna2{
+    width: 625px;
+    height: 670px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#img1{height: 300px;
+    padding-bottom: 15px;
+}/*Imagem do cartão vale cultura*/
+
+td{
+    font-family:"Arial";
+    font-size: 25px;
+    text-align:left;
+}
+
+#img2{
+    height: 200px;
+    width: 358px;
+    padding: 10px;
+}/*Imagens da tabela*/
+
+#img3{
+    height: 200px;
+    padding-left: 70px;
+} /* Imagem do cilc*/
+
+footer p{
+    color: black;
+    text-align:center;
+    font-size:15px;
+}
+
+footer{
+    width: 100%;
+    background-color:lightblue;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+#img-topo{
+    width:40px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

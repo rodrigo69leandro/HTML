@@ -1,0 +1,98 @@
+body{}
+section{
+    background-image:url(img/imageb.png)
+}/*Imagem de Background*/
+
+#topo{
+    height: 300px;
+    margin: 0px;
+    
+} /* Imagem do topo de todas as páginas*/
+
+.menu{
+    background-color:#c8e6c9;
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    color:black;
+    font:30px'Arial';
+    text-decoration: none;
+    margin: 0px;
+} /*Estilização da barra de menu */
+
+a:link, a:visited {
+	text-decoration: none;
+    color:#43a047;
+}/* Mudança de cor dos links clicados*/
+
+a:hover {
+	text-decoration: underline; 
+	color:#1b5e20;
+    font-size: 130%;
+}/*Mudança de formato,cor e fonte dos titulos*/
+
+a:active {
+	text-decoration: none;
+}/*Formatando os links*/
+
+article{
+    text-align: center;
+    margin: 15px;
+    
+}
+
+
+h1{
+ font-size: 40px;
+ text-align: center;
+} /*Formatação para os textos H1*/
+
+p,li{
+	font-family:"Arial";
+    font-size: 25px;
+    text-align: justify;
+} /*Formatação para as tags p e li*/
+
+#img1{
+    height: 300px;
+}/*Tamanho da imagem*/
+
+h2, h3{
+    font-size:30px;
+    text-align: center;
+}/*Formatação dos títulos h2 e h3*/
+
+li{
+    text-align: left
+}/*Definindo o alinhamento das LI da tabela*/
+
+h4{
+    text-align: center;
+    font-size: 25px
+}/*Formatando os titulos h4*/
+
+#video{
+    text-align: center;
+}/*Adicionando os videos no centro da página*/
+
+#img-topo{
+    width:40px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}/*Formatação da imagem de todas as páginas*/
+
+footer{
+    width: 100%;
+    background-color:lightblue;
+    padding: 5px;
+    padding-top: 0px;
+}/*Rodape*/
+
+footer p{
+    color: black;
+    text-align:center;
+    font-size:15px;
+}/*formatação do rodapé no paragrafo P*/

@@ -1,0 +1,145 @@
+
+
+section{
+    background-image:url(img/imageb.png)
+}
+
+#topo{
+    height: 300px;
+    margin: 0px;
+    
+} /* Imagem principal de todas as páginas*/
+
+.menu{
+    background-color:#c8e6c9;
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    color:black;
+    font:30px'Arial';
+    text-decoration: none;
+    margin: 0px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color:#43a047;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color:#1b5e20;
+    font-size: 130%;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+h1{
+    font-family:"Arial"; 
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-family:"Arial";
+    font-size: 25px;
+    text-align: justify;
+}
+
+#coluna1{
+    width: 625px;
+    height: 450px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna2{
+    width: 625px;
+    height: 450px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna3{   
+    width: 625px;
+    height: 610px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna4{
+    width: 625px;
+    height: 610px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#video1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+h2{
+    font-family:"Arial"; 
+    font-size: 30px;
+    text-align: center;
+
+}
+
+img{ height: 300px;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#video2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h3{
+    text-align: center; 
+    font-size: 25;
+}
+
+#dica{
+    text-align: left;
+}
+
+li{
+    font-family:"Arial";
+    font-size: 20px;
+    text-align: justify;
+}
+
+#img-topo{
+    width:40px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color:lightblue;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+footer p{
+    color: black;
+    text-align:center;
+    font-size:15px;
+}

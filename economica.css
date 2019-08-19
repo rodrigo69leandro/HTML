@@ -1,0 +1,144 @@
+
+
+
+
+body{}
+section{
+    background-image:url(img/imageb.png)
+}
+
+#topo{
+    height: 300px;
+    margin: 0px;
+    
+} /* Imagem do topo*/
+
+.menu{
+    background-color:#c8e6c9;/*Regular a tonalidade da imagem*/
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    color:black;
+    font:30px'Arial';
+    text-decoration: none;
+    margin: 0px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color:#43a047;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color:#1b5e20;
+    font-size: 130%;
+}
+
+a:active {
+	text-decoration: none;
+
+}
+
+article{
+    text-align: center;
+    margin: 15px;
+    
+}
+
+h1{
+ font-size: 40px;
+ text-align: center;
+}
+
+p{
+	font-family:"Arial";
+    font-size: 25px;
+    text-align: justify;
+}
+
+#coluna1{   
+    width: 625px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna2{
+    width: 625px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#triangulo{
+    width: 450px;
+}
+
+#coluna3{
+    width: 625px;
+    height: 570px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna4{   
+    width: 625px;
+    height: 570px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna5{
+    width: 625px;
+    height: 500px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#coluna6{
+    width: 625px;
+    height: 500px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#img{height: 300px;
+}
+
+h2, h3{
+    font-size:30px;
+    text-align: center;
+}
+
+#img-topo{
+    width:40px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+h4{text-align: center;
+    font-size: 25px;
+}
+
+footer{
+    width: 100%;
+    background-color:lightblue;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+footer p{
+    color: black;
+    text-align:center;
+    font-size:15px;
+}
